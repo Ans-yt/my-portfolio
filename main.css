@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+
+.title {
+    color: rgb(74, 12, 145);
+    background: linear-gradient(to top, rgb(74, 12, 145), rgb(143, 2, 143));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    padding: 20px;
+    font-family: 'Asimovian', sans-serif;
+    font-size: 48px;
+}
+
+.pfp {
+    display : block;
+    margin:auto;
+    width: 200px;
+    border-radius: 50%;
+}
+
+background {
+    background-color: rgb(74, 12, 145);
+}
