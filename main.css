@@ -1,7 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 .title {
-    background: linear-gradient(to top, rgb(105, 105, 105), rgb(53, 4, 63));
+    background: linear-gradient(to top, rgb(136, 135, 135), rgb(169, 20, 199));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
@@ -15,7 +15,7 @@
    background-size: cover;
    background-position: center;
    
-   outline: 5px solid rgb(0, 0, 0);
+   outline: 5px solid rgb(255, 255, 255);
    padding-vertical: 20px;
    border-radius: 10px;
    
@@ -73,6 +73,51 @@
 
 .term-outp {
     color: #e2e2e2;
+}
+
+.cursor {
+    display: inline-block;
+    width: 10px;
+    height: 20px;
+}
+
+.blink {
+    animation: blink 1s step-start infinite;
+    color:beige;
+    display: inline-block;
+    width: 9px;
+    height: 17px;
+    background-color: #e2e2e2;
+    vertical-align: middle;
+}
+
+@keyframes blink {
+    0%, 50% {
+        opacity: 1;
+    }
+    50.01%, 100% {
+        opacity: 0;
+    }
+}
+
+.terminal-title {
+    display: flex;
+    gap: 8px;
+}
+
+.terminal-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    display: inline-block;
+}
+
+.red { background-color: #ff5f57; }
+.yellow { background-color: #febc2e; }
+.green { background-color: #28c840; }
+
+.terminal-body p {
+    margin: 6px 0;
 }
 
 .pfp {
