@@ -1,8 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Emoji:wght@300..700&display=swap');
 
 .title {
     background: linear-gradient(to top, rgb(136, 135, 135), rgb(169, 20, 199));
     -webkit-background-clip: text;
+    background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     padding: 20px;
@@ -20,6 +22,12 @@
    border-radius: 10px;
    
 }
+/* About Me Section */
+
+
+/* =========================================
+   ABOUT ME
+   ========================================= */
 
 .abt-me {
     text-align: center;
@@ -91,7 +99,7 @@
     vertical-align: middle;
 }
 
-@keyframes blink {
+@keyframes blink { /* Blinking animation for the cursor */
     0%, 50% {
         opacity: 1;
     }
@@ -120,9 +128,74 @@
     margin: 6px 0;
 }
 
+/*end of About Me Section*/
+
+/*pfp section*/
+
 .pfp {
     display : block;
     margin:auto;
     width: 200px;
     border-radius: 50%;
+}
+
+/* end of pfp section*/
+
+/* Skills Section */
+
+
+/* =========================================
+  SKILLS
+   ========================================= */
+
+.Skills {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 36px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mastered {
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+    font-size: 24px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.mastered-list {
+    color:#ec5dff;
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.mastered-list img {
+    width: auto;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.mastered-list img:hover {
+    transform: scale(1.1);
+}
+
+.learning {
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+    font-size: 24px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.learning-list {
+    color:#ec5dff;
+    text-align: center;
+    font-family: 'Merriweather', cursive;
+    font-size: 20px;
+    font-weight: bold;
 }
