@@ -1,14 +1,78 @@
-@import url('https://fonts.googleapis.com/css2?family=Asimovian&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
 
 .title {
-    color: rgb(74, 12, 145);
-    background: linear-gradient(to top, rgb(74, 12, 145), rgb(143, 2, 143));
+    background: linear-gradient(to top, rgb(105, 105, 105), rgb(53, 4, 63));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     text-align: center;
     padding: 20px;
-    font-family: 'Asimovian', sans-serif;
+    font-family: 'Black Ops One', cursive;
     font-size: 48px;
+}
+
+.title-box {
+   background-image: url('https://i.pinimg.com/736x/fb/ea/ed/fbeaed8b866417eaa6c8adb333aaebd3.jpg');
+   background-size: cover;
+   background-position: center;
+   
+   outline: 5px solid rgb(0, 0, 0);
+   padding-vertical: 20px;
+   border-radius: 10px;
+   
+}
+
+.abt-me {
+    text-align: center;
+    font-family: 'Black Ops One', cursive;
+    font-size: 36px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.terminal-abtme {
+    max-width: 700px;
+    margin: 30px auto;
+    overflow: hidden;
+    border: 2px solid rgb(0, 0, 0);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10px;
+}
+
+.terminal-header {
+    padding: 12px 16px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #350244;
+    color:aliceblue;
+}
+
+.terminal-title {
+    font-family: 'Black Ops One', cursive;
+}
+
+.terminal-body {
+    padding : 16px;
+    color: #dddddd;
+    font-family: 'consolas', monospace;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.commande-1 {
+    color: #f58bff;
+}
+
+.signals {
+    color: #ca2d2d;
+}
+
+.signal-2 {
+    color: #028302;
+}
+
+.term-outp {
+    color: #e2e2e2;
 }
 
 .pfp {
@@ -16,8 +80,4 @@
     margin:auto;
     width: 200px;
     border-radius: 50%;
-}
-
-background {
-    background-color: rgb(74, 12, 145);
 }
