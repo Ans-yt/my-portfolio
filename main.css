@@ -1,5 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Black+Ops+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Emoji:wght@300..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bitcount+Single:wght@100..900&family=Black+Ops+One&family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&family=Noto+Emoji:wght@300..700&display=swap');
 
 .title {
     background: linear-gradient(to top, rgb(136, 135, 135), rgb(169, 20, 199));
@@ -35,6 +34,7 @@
     font-size: 36px;
     color: rgb(255, 24, 216);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: faulty-light 5s infinite;
 }
 
 .terminal-abtme {
@@ -154,6 +154,7 @@
     font-size: 36px;
     color: rgb(255, 24, 216);
     text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: faulty-light 5s infinite;
 }
 
 .mastered {
@@ -200,10 +201,190 @@
     font-weight: bold;
 }
 
-.Project {
-    color: rgb(255, 24, 216);
+.learning-list img {
+    width: auto;
+    height: 24px;
+    margin-left: 10px;
+    vertical-align: middle;
+    transition: transform 0.3s ease;
+}
+
+.learning-list img:hover {
+    transform: scale(1.1);
+}
+
+.skill-container {
+    max-width: 400px;
+    margin: 30px auto;
+    padding: 20px;
+    background: linear-gradient(
+        135deg,
+        rgba(55, 55, 55, 0.95),
+        rgba(10, 10, 10, 0.95)
+    ); 
+    border-radius: 25px;
+    transition: transform 0.3s ease;
+}
+
+.skill-container:hover {
+    transform: perspective(800px) rotateX(2deg) rotateY(-1deg);
+}
+
+.flicker {
+    display:inline-block;
+    animation: faulty-light 5s infinite;
+}
+
+@keyframes faulty-light {
+    0%, 100% { opacity: 1; }
+    12% { opacity: 0.85; }
+    25% { opacity: 1; }
+    40% { opacity: 0.55; }
+    84% { opacity: 1; }
+}
+
+/* THIS IS THE PROJECT PARTTT */
+
+.projects {
     text-align: center;
-    font-family: 'Merriweather', cursive;
-    font-size: 20px;
-    font-weight: bold;
+    font-family: 'Black Ops One', cursive;
+    font-size: 36px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    animation: faulty-light 5s infinite;
+}
+
+.project-list {
+    text-align: center;
+    font-family: 'Bitcount Single', sans-serif;
+    font-size: 24px;
+    color: rgb(255, 24, 216);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+    max-width: 600px;
+    margin: 30px auto;
+    padding: 20px;
+    background-image: url('https://i.pinimg.com/736x/2c/3e/54/2c3e54f60011f2295bda703e0ffa2e33.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    border-radius: 25px;
+    background-color: #808080;
+    background-blend-mode: luminosity;
+}
+
+.project-list p {
+    font-family: 'Bitcount Single', monospace;
+    font-size: 28px;
+    font-weight: 600;
+
+    letter-spacing: 2px;
+    word-spacing: 4px;
+    line-height: 1.6;
+
+    text-align: center;
+    color: #ff18d8;
+    text-shadow: 2px 2px 4px black;
+}
+
+
+.p1 {
+    width: fit-content;
+    margin: 5px auto;
+    max-width: 80%;
+    padding: 9px 14px;
+    background-color: rgba(20, 20, 20, 0.308);
+    backdrop-filter: blur(5px);
+
+    border: 3px solid rgba(0, 0, 0, 0.438);
+    border-radius: 70px;
+
+    display:inline-block;
+    text-align: center;
+
+}
+
+.p2 {
+    width: fit-content;
+    margin: 5px auto;
+    max-width: 80%;
+    padding: 9px 14px;
+    background-color: rgba(20, 20, 20, 0.308);
+    backdrop-filter: blur(5px);
+
+    border: 3px solid rgba(0, 0, 0, 0.438);
+    border-radius: 70px;
+
+    display:inline-block;
+    text-align: center;
+}
+
+.p3 {
+    width: fit-content;
+    margin: 5px auto;
+    max-width: 80%;
+    padding: 9px 14px;
+    background-color: rgba(20, 20, 20, 0.308);
+    backdrop-filter: blur(5px);
+
+    border: 3px solid rgba(0, 0, 0, 0.438);
+    border-radius: 70px;
+
+    display:inline-block;
+    text-align: center;
+}
+
+.p4 {
+    width: fit-content;
+    margin: 5px auto;
+    max-width: 80%;
+    padding: 9px 14px;
+    background-color: rgba(20, 20, 20, 0.308);
+    backdrop-filter: blur(5px);
+
+    border: 3px solid rgba(0, 0, 0, 0.438);
+    border-radius: 70px;
+
+    display:inline-block;
+    text-align: center;
+}
+
+.p5 {
+    width: fit-content;
+    margin: 5px auto;
+    max-width: 90%;
+    max-height: 40%;
+    padding: 9px 14px;
+    background-color: rgba(20, 20, 20, 0.308);
+    backdrop-filter: blur(5px);
+    color-;
+
+    border: 3px solid rgba(0, 0, 0, 0.438);
+    border-radius: 20px;
+
+    display:inline-block;
+    text-align: center;
+
+        background: linear-gradient(
+        to bottom,
+        #e2e2e2,
+        #d4cdcd
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.p1 .p2 .p3 .p4 {
+    transition: color 0.3s ease, transform 0.3s ease;
+    cursor:pointer
+}
+
+.p1:hover, .p2:hover, .p3:hover, .p4:hover {
+    color: #13a4e7fd;
+    transform: scale(0.99);
+}
+
+.project-list a {
+    color: #ff18d8;
+    text-decoration: none;
 }
